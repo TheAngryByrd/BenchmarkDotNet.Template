@@ -76,8 +76,7 @@ fi
 
 # build template
 pushd Content/
-./build.sh
-./build.sh Clean
+dotnet build
 popd
 
 run $FAKE_EXE "$@" $FSIARGS $FSIARGS2 build.fsx

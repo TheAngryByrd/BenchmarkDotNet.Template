@@ -11,14 +11,11 @@ IF NOT EXIST build.fsx (
   packages\build\FAKE\tools\FAKE.exe init.fsx
 )
 pushd Content\
-call build.cmd
+dotnet build
 if errorlevel 1 (
   exit /b %errorlevel%
 )
-call build.cmd Clean
-if errorlevel 1 (
-  exit /b %errorlevel%
-)
+
 popd
 
 packages\build\FAKE\tools\FAKE.exe build.fsx %*
