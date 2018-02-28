@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>BenchmarkDotNet.Template</Description>
+    <Authors>Jimmy Byrd</Authors>
+    <PackageProjectUrl>https://github.com/TheAngryByrd/BenchmarkDotNet.Template</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/TheAngryByrd/BenchmarkDotNet.Template/blob/master/LICENSE.md</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/TheAngryByrd/BenchmarkDotNet.Template.git</RepositoryUrl>
+    <PackageTags>class;library;template;fsharp</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageType>Template</PackageType>
+    <NoBuild>true</NoBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <TargetFramework>netstandard0.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content/**/*" Exclude="Content/packages/**/*;Content/.fake/**;Content/bin/**/**/*;Content/dist/*;Content/temp/*;Content/**/bin/**/**/*;Content/**/obj/**/**/*;Content/paket-files/**" >
+        <PackagePath>Content\</PackagePath>
+    </Content>
+  </ItemGroup>
+</Project>

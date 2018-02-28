@@ -1,0 +1,13 @@
+{
+    "author": "Jimmy Byrd",
+    "classifications": ["Scaffold"],
+    "name": "BenchmarkDotNet.Template",
+    "tags": {
+        "language": "F#"
+    },
+    "identity": "BenchmarkDotNet.Template",
+    "shortName": "benchmark-dotnet",
+    "sourceName": "MyLib",
+    // This allows using the `-n` option to create a new directory
+    "preferNameDirectory": true
+}
