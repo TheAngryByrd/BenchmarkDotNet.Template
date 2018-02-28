@@ -22,12 +22,12 @@ Stable | Prerelease
 ### Grab the template from nuget:
 
 ```
-dotnet new -i "BenchmarkDotNet.Template::*"
+dotnet new -i "TheAngryByrd.BenchmarkDotNet.Templates::*"
 ```
 
 ### Use the new template:
 
 ```
-dotnet new BenchmarkDotNet -lang F# -n MyCoolNewLib
+dotnet new benchmark-dotnet -lang F# -n MyCoolNewLib
 ```
 
