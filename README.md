@@ -13,7 +13,7 @@ MacOS/Linux | Windows
 
 Stable | Prerelease
 :---: | :---:
-[![NuGet Badge](https://buildstats.info/nuget/TheAngryByrd.BenchmarkDotNet.Template)](https://www.nuget.org/packages/TheAngryByrd.BenchmarkDotNet.Template/) | [![NuGet Badge](https://buildstats.info/nuget/TheAngryByrd.BenchmarkDotNet.Template?includePreReleases=true)](https://www.nuget.org/packages/TheAngryByrd.BenchmarkDotNet.Template/)
+[![NuGet Badge](https://buildstats.info/nuget/TheAngryByrd.BenchmarkDotNet.Templates)](https://www.nuget.org/packages/TheAngryByrd.BenchmarkDotNet.Templates/) | [![NuGet Badge](https://buildstats.info/nuget/TheAngryByrd.BenchmarkDotNet.Templates?includePreReleases=true)](https://www.nuget.org/packages/TheAngryByrd.BenchmarkDotNet.Templates/)
 
 
 
